@@ -1,46 +1,61 @@
 {
-    "reservations": [
-        {
-            "id": 1,
-            "parentId": 1,
-            "childId": 1,
-            "numOfChildren": 1,
-            "address": "123 Help Me Ave",
-            "dateOfParty": "01/04/2022",
-            "reservationLength": 8
-        },
-        {
-            "id": 1,
-            "parentId": 1,
-            "childId": 1,
-            "numOfChildren": 1,
-            "address": "123 Help Me Ave",
-            "dateOfParty": "01/04/2022",
-            "reservationLength": 8
-        }
-    ],
-    "children": [
-        {
-            "id": 1,
-            "name": "Jimmy",
-            "parentId": 1
-        }
-    ],
-    "parents": [
-        {
-            "id": 1,
-            "name": "Susan",
-            "childId": 1
-        }
-    ],
-    "clowns": [
-        {
-            "id": 1,
-            "name": "Buttons"
-        },
-        {
-            "id": 2,
-            "name": "Lollipop"
-        }
-    ]
+  "reservations": [
+    {
+      "id": 1,
+      "parentName": "Carol",
+      "childName": "Jimmy",
+      "numOfChildren": 1,
+      "address": "123 Help Me Ave",
+      "dateOfParty": "01/04/2022",
+      "reservationLength": 8
+    },
+    {
+      "id": 1,
+      "parentName": "Susan",
+      "childName": "Billy",
+      "numOfChildren": 1,
+      "address": "123 Help Me Ave",
+      "dateOfParty": "01/04/2022",
+      "reservationLength": 8
+    },
+    {
+      "id": 1,
+      "parentName": "Susan",
+      "childName": "Billy",
+      "numOfChildren": 1,
+      "address": "123 Help Me Ave",
+      "dateOfParty": "01/04/2022",
+      "reservationLength": 8
+    },
+    {
+      "id": 1,
+      "parentName": "Susan",
+      "childName": "Billy",
+      "numOfChildren": 1,
+      "address": "123 Help Me Ave",
+      "dateOfParty": "01/04/2022",
+      "reservationLength": 8
+    }
+  ],
+  "clowns": [
+    {
+      "id": 1,
+      "name": "Buttons"
+    },
+    {
+      "id": 2,
+      "name": "Lollipop"
+    }
+  ],
+  "partyCompletions": [
+      {
+    "id": 1,
+    "parentName": "Susan",
+    "childName": "Billy",
+    "numOfChildren": 1,
+    "address": "123 Help Me Ave",
+    "dateOfParty": "01/04/2022",
+    "reservationLength": 8
+  }
+]
 }
